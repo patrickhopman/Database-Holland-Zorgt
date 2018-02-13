@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="googlebot" content="noindex, nofollow">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Vue 2.0 Hello World by chrisvfritz</title>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<script src="https://unpkg.com/vue"></script>
+		<div id="app">
+			<p>{{ message }}</p>
+		</div>
+		<div id="app-2">
+			<span v-bind:title="message">
+				Hover your mouse over me for a few seconds
+				to see my dynamically bound title!
+			</span>
+		</div>
+	</body>
+</html>
